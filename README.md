@@ -17,9 +17,9 @@
 Обязательно свойство утилиты - бережное обращение с дисковым вводом выводом.  
 
 Опции программы:  
--h [ --help ]           Help screen
--I [ --include_dir ]    Include directories to scan
--E [ --exclude_dir ]    Exclude directories to exclude
--D [ --depth ]          Depth to scan
--S [ --min_file_size ]  Minimum file size
--H [ --hash ]           Hash algo crc32/md5/sha1
+-h [ --help ]           Help screen  
+-I [ --include_dir ]    Include directories to scan  
+-E [ --exclude_dir ]    Exclude directories to exclude  
+-D [ --depth ]          Depth to scan  
+-S [ --min_file_size ]  Minimum file size  
+-H [ --hash ]           Hash algo crc32/md5/sha1  
