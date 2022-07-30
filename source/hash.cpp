@@ -1,3 +1,6 @@
+/*!
+ *  @brief Алгоритмы хеширования
+ */
 #include "hash.h"
 
 digest CRC32Hasher::Hash(const char* buffer, unsigned int buffer_length) {
