@@ -15,3 +15,11 @@
 Результат работы утилиты список полных путей файлов с идентичным содержимым, выводимый на стандартный вывод.   
 Одна строка- один файл. Идентичные файлы должны подряд, одной группой. Разные группы разделяются пустой строкой.   
 Обязательно свойство утилиты - бережное обращение с дисковым вводом выводом.  
+
+Опции программы:  
+-h [ --help ]           Help screen
+-I [ --include_dir ]    Include directories to scan
+-E [ --exclude_dir ]    Exclude directories to exclude
+-D [ --depth ]          Depth to scan
+-S [ --min_file_size ]  Minimum file size
+-H [ --hash ]           Hash algo crc32/md5/sha1
