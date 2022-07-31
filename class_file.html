@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BAYAN: Класс File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">BAYAN<span id="projectnumber">&#160;0.0.1</span>
+   </div>
+   <div id="projectbrief">Утилита для обнаружения файлов-дубликатов, разаработана с применением библиотеки Boost</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="class_file-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс File</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс <a class="el" href="class_file.html" title="Класс File для сравниения Хэшей">File</a> для сравниения Хэшей  
+ <a href="class_file.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="file_8h_source.html">file.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a4271fcd0f3190ef70382bdf3f4b36443"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a4271fcd0f3190ef70382bdf3f4b36443">File</a> (fs::path path, uintmax_t size, uintmax_t hash_blocksize, <a class="el" href="class_i_hasher.html">IHasher</a> *hasher)</td></tr>
+<tr class="separator:a4271fcd0f3190ef70382bdf3f4b36443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f604de88cbf82ed853752fdb554ace1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a3f604de88cbf82ed853752fdb554ace1">operator==</a> (const <a class="el" href="class_file.html">File</a> &amp;other) const</td></tr>
+<tr class="memdesc:a3f604de88cbf82ed853752fdb554ace1"><td class="mdescLeft">&#160;</td><td class="mdescRight">const comparsion for unordered_set  <a href="class_file.html#a3f604de88cbf82ed853752fdb554ace1">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3f604de88cbf82ed853752fdb554ace1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e83079b946319dd79c97a5872bccab"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a60e83079b946319dd79c97a5872bccab">get_hash_data_Size</a> () const</td></tr>
+<tr class="memdesc:a60e83079b946319dd79c97a5872bccab"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter for size of calculated hash  <a href="class_file.html#a60e83079b946319dd79c97a5872bccab">Подробнее...</a><br /></td></tr>
+<tr class="separator:a60e83079b946319dd79c97a5872bccab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c5df807157585c8188684098c82369d"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a1c5df807157585c8188684098c82369d">get_file_size</a> () const</td></tr>
+<tr class="memdesc:a1c5df807157585c8188684098c82369d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter for filesize  <a href="class_file.html#a1c5df807157585c8188684098c82369d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1c5df807157585c8188684098c82369d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59cec1b58e769b293cddabca72aa9a87"><td class="memItemLeft" align="right" valign="top">fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a59cec1b58e769b293cddabca72aa9a87">get_path</a> () const</td></tr>
+<tr class="memdesc:a59cec1b58e769b293cddabca72aa9a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter for path  <a href="class_file.html#a59cec1b58e769b293cddabca72aa9a87">Подробнее...</a><br /></td></tr>
+<tr class="separator:a59cec1b58e769b293cddabca72aa9a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99229a7bdaf37d219467b6c8a5db8e77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a99229a7bdaf37d219467b6c8a5db8e77">open_handle</a> ()</td></tr>
+<tr class="memdesc:a99229a7bdaf37d219467b6c8a5db8e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Открыть файл  <a href="class_file.html#a99229a7bdaf37d219467b6c8a5db8e77">Подробнее...</a><br /></td></tr>
+<tr class="separator:a99229a7bdaf37d219467b6c8a5db8e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd896274ec8b68d339c85e730416dfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a3fd896274ec8b68d339c85e730416dfb">close_handle</a> ()</td></tr>
+<tr class="memdesc:a3fd896274ec8b68d339c85e730416dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Закрыть файл  <a href="class_file.html#a3fd896274ec8b68d339c85e730416dfb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3fd896274ec8b68d339c85e730416dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf5b3e4c7ca3950d6ee8bf35f123681c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; char[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#aaf5b3e4c7ca3950d6ee8bf35f123681c">get_next_block</a> ()</td></tr>
+<tr class="memdesc:aaf5b3e4c7ca3950d6ee8bf35f123681c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить следующий блок из файла  <a href="class_file.html#aaf5b3e4c7ca3950d6ee8bf35f123681c">Подробнее...</a><br /></td></tr>
+<tr class="separator:aaf5b3e4c7ca3950d6ee8bf35f123681c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba95e94b1dcf94381cd527018a88d883"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#aba95e94b1dcf94381cd527018a88d883">calc_next_hash</a> ()</td></tr>
+<tr class="memdesc:aba95e94b1dcf94381cd527018a88d883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вычислить следующий блок хеша.  <a href="class_file.html#aba95e94b1dcf94381cd527018a88d883">Подробнее...</a><br /></td></tr>
+<tr class="separator:aba95e94b1dcf94381cd527018a88d883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3557bd9df7d807ee816173248aaa94bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_hash_block.html">HashBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a3557bd9df7d807ee816173248aaa94bf">calc_hash_block</a> (size_t addr)</td></tr>
+<tr class="memdesc:a3557bd9df7d807ee816173248aaa94bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вычислить хеш до блока N включительно.  <a href="class_file.html#a3557bd9df7d807ee816173248aaa94bf">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3557bd9df7d807ee816173248aaa94bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0560a5da44fb41d9a3c3098caebc98c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_hash_block.html">HashBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#af0560a5da44fb41d9a3c3098caebc98c">get_hash_block</a> (size_t addr)</td></tr>
+<tr class="memdesc:af0560a5da44fb41d9a3c3098caebc98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Взять N-ый хешблок.  <a href="class_file.html#af0560a5da44fb41d9a3c3098caebc98c">Подробнее...</a><br /></td></tr>
+<tr class="separator:af0560a5da44fb41d9a3c3098caebc98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a83c4b5be79623393f346dd444d150"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a66a83c4b5be79623393f346dd444d150">equal_hash_file</a> (<a class="el" href="class_file.html">File</a> &amp;other)</td></tr>
+<tr class="memdesc:a66a83c4b5be79623393f346dd444d150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сравнение файлов по кешу  <a href="class_file.html#a66a83c4b5be79623393f346dd444d150">Подробнее...</a><br /></td></tr>
+<tr class="separator:a66a83c4b5be79623393f346dd444d150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a849052d0f74c4eddd709543cf8f15546"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a849052d0f74c4eddd709543cf8f15546">in_result</a> = false</td></tr>
+<tr class="separator:a849052d0f74c4eddd709543cf8f15546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d9e23f2f2ac3d59e3197ca05dfa1c4"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#ae4d9e23f2f2ac3d59e3197ca05dfa1c4">block_count</a></td></tr>
+<tr class="memdesc:ae4d9e23f2f2ac3d59e3197ca05dfa1c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Количество хеш блоков файла  <a href="class_file.html#ae4d9e23f2f2ac3d59e3197ca05dfa1c4">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae4d9e23f2f2ac3d59e3197ca05dfa1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p >Класс <a class="el" href="class_file.html" title="Класс File для сравниения Хэшей">File</a> для сравниения Хэшей </p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a4271fcd0f3190ef70382bdf3f4b36443" name="a4271fcd0f3190ef70382bdf3f4b36443"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4271fcd0f3190ef70382bdf3f4b36443">&#9670;&nbsp;</a></span>File()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">File::File </td>
+          <td>(</td>
+          <td class="paramtype">fs::path&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uintmax_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uintmax_t&#160;</td>
+          <td class="paramname"><em>hash_blocksize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_hasher.html">IHasher</a> *&#160;</td>
+          <td class="paramname"><em>hasher</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a3557bd9df7d807ee816173248aaa94bf" name="a3557bd9df7d807ee816173248aaa94bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3557bd9df7d807ee816173248aaa94bf">&#9670;&nbsp;</a></span>calc_hash_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_hash_block.html">HashBlock</a> File::calc_hash_block </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>addr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Вычислить хеш до блока N включительно. </p>
+
+</div>
+</div>
+<a id="aba95e94b1dcf94381cd527018a88d883" name="aba95e94b1dcf94381cd527018a88d883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba95e94b1dcf94381cd527018a88d883">&#9670;&nbsp;</a></span>calc_next_hash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void File::calc_next_hash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Вычислить следующий блок хеша. </p>
+
+</div>
+</div>
+<a id="a3fd896274ec8b68d339c85e730416dfb" name="a3fd896274ec8b68d339c85e730416dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd896274ec8b68d339c85e730416dfb">&#9670;&nbsp;</a></span>close_handle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void File::close_handle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Закрыть файл </p>
+<p >закрыть файл </p>
+
+</div>
+</div>
+<a id="a66a83c4b5be79623393f346dd444d150" name="a66a83c4b5be79623393f346dd444d150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66a83c4b5be79623393f346dd444d150">&#9670;&nbsp;</a></span>equal_hash_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::equal_hash_file </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_file.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Сравнение файлов по кешу </p>
+<p >Compare by hash with other <a class="el" href="class_file.html" title="Класс File для сравниения Хэшей">File</a>. </p>
+
+</div>
+</div>
+<a id="a1c5df807157585c8188684098c82369d" name="a1c5df807157585c8188684098c82369d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c5df807157585c8188684098c82369d">&#9670;&nbsp;</a></span>get_file_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uintmax_t File::get_file_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter for filesize </p>
+
+</div>
+</div>
+<a id="af0560a5da44fb41d9a3c3098caebc98c" name="af0560a5da44fb41d9a3c3098caebc98c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0560a5da44fb41d9a3c3098caebc98c">&#9670;&nbsp;</a></span>get_hash_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_hash_block.html">HashBlock</a> File::get_hash_block </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>addr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Взять N-ый хешблок. </p>
+<p >get N-th <a class="el" href="struct_hash_block.html" title="Одиночный блок хэширования">HashBlock</a> </p>
+
+</div>
+</div>
+<a id="a60e83079b946319dd79c97a5872bccab" name="a60e83079b946319dd79c97a5872bccab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e83079b946319dd79c97a5872bccab">&#9670;&nbsp;</a></span>get_hash_data_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t File::get_hash_data_Size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter for size of calculated hash </p>
+
+</div>
+</div>
+<a id="aaf5b3e4c7ca3950d6ee8bf35f123681c" name="aaf5b3e4c7ca3950d6ee8bf35f123681c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf5b3e4c7ca3950d6ee8bf35f123681c">&#9670;&nbsp;</a></span>get_next_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; char[]&gt; File::get_next_block </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить следующий блок из файла </p>
+
+</div>
+</div>
+<a id="a59cec1b58e769b293cddabca72aa9a87" name="a59cec1b58e769b293cddabca72aa9a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59cec1b58e769b293cddabca72aa9a87">&#9670;&nbsp;</a></span>get_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fs::path File::get_path </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter for path </p>
+
+</div>
+</div>
+<a id="a99229a7bdaf37d219467b6c8a5db8e77" name="a99229a7bdaf37d219467b6c8a5db8e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99229a7bdaf37d219467b6c8a5db8e77">&#9670;&nbsp;</a></span>open_handle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void File::open_handle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Открыть файл </p>
+<p >Открыть файл и перейти в место последнего невычесленного блока </p>
+
+</div>
+</div>
+<a id="a3f604de88cbf82ed853752fdb554ace1" name="a3f604de88cbf82ed853752fdb554ace1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f604de88cbf82ed853752fdb554ace1">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_file.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>const comparsion for unordered_set </p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="ae4d9e23f2f2ac3d59e3197ca05dfa1c4" name="ae4d9e23f2f2ac3d59e3197ca05dfa1c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d9e23f2f2ac3d59e3197ca05dfa1c4">&#9670;&nbsp;</a></span>block_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t File::block_count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Количество хеш блоков файла </p>
+
+</div>
+</div>
+<a id="a849052d0f74c4eddd709543cf8f15546" name="a849052d0f74c4eddd709543cf8f15546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849052d0f74c4eddd709543cf8f15546">&#9670;&nbsp;</a></span>in_result</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::in_result = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>include/<a class="el" href="file_8h_source.html">file.h</a></li>
+<li>source/<a class="el" href="file_8cpp.html">file.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

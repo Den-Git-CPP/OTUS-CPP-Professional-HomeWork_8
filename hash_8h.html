@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BAYAN: Файл include/hash.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">BAYAN<span id="projectnumber">&#160;0.0.1</span>
+   </div>
+   <div id="projectbrief">Утилита для обнаружения файлов-дубликатов, разаработана с применением библиотеки Boost</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a> &#124;
+<a href="#typedef-members">Определения типов</a>  </div>
+  <div class="headertitle"><div class="title">Файл hash.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;boost/crc.hpp&gt;</code><br />
+<code>#include &lt;boost/uuid/detail/md5.hpp&gt;</code><br />
+<code>#include &lt;boost/uuid/detail/sha1.hpp&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для hash.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="hash_8h__incl.png" border="0" usemap="#ainclude_2hash_8h" alt=""/></div>
+<map name="ainclude_2hash_8h" id="ainclude_2hash_8h">
+<area shape="rect" title=" " alt="" coords="359,5,464,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,105,107"/>
+<area shape="rect" title=" " alt="" coords="130,80,301,107"/>
+<area shape="rect" title=" " alt="" coords="325,80,498,107"/>
+<area shape="rect" title=" " alt="" coords="522,80,594,107"/>
+<area shape="rect" title=" " alt="" coords="618,80,677,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="hash_8h__dep__incl.png" border="0" usemap="#ainclude_2hash_8hdep" alt=""/></div>
+<map name="ainclude_2hash_8hdep" id="ainclude_2hash_8hdep">
+<area shape="rect" title=" " alt="" coords="170,5,275,32"/>
+<area shape="rect" href="bayan_8h.html" title=" " alt="" coords="83,155,194,181"/>
+<area shape="rect" href="file_8h.html" title=" " alt="" coords="176,80,269,107"/>
+<area shape="rect" href="hash_8cpp.html" title=" " alt="" coords="293,80,411,107"/>
+<area shape="rect" href="bayan_8cpp.html" title=" " alt="" coords="5,229,128,256"/>
+<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="152,229,269,256"/>
+<area shape="rect" href="file_8cpp.html" title=" " alt="" coords="218,155,323,181"/>
+</map>
+</div>
+</div>
+<p><a href="hash_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_hasher.html">IHasher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Алгоритмы хеширования  <a href="class_i_hasher.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_r_c32_hasher.html">CRC32Hasher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Алгоритмы хеширования CRC32.  <a href="class_c_r_c32_hasher.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_d5_hasher.html">MD5Hasher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Алгоритмы хеширования MD5.  <a href="class_m_d5_hasher.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_a1_hasher.html">SHA1Hasher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Алгоритмы хеширования SHA1.  <a href="class_s_h_a1_hasher.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Определения типов</h2></td></tr>
+<tr class="memitem:ad06a644fdc4910a56edac463d2159c69"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hash_8h.html#ad06a644fdc4910a56edac463d2159c69">digest</a> = std::vector&lt; unsigned int &gt;</td></tr>
+<tr class="separator:ad06a644fdc4910a56edac463d2159c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Типы</h2>
+<a id="ad06a644fdc4910a56edac463d2159c69" name="ad06a644fdc4910a56edac463d2159c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad06a644fdc4910a56edac463d2159c69">&#9670;&nbsp;</a></span>digest</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="hash_8h.html#ad06a644fdc4910a56edac463d2159c69">digest</a> =  std::vector&lt;unsigned int&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>
