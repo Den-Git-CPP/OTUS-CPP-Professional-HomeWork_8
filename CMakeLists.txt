@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.15)
 
 if ($ENV{GITHUB_RUN_NUMBER})
-    project (BAYAN VERSION 0.0.$ENV{GITHUB_RUN_NUMBER})
+    project (Bayan VERSION 0.0.$ENV{GITHUB_RUN_NUMBER})
 else()
-    project (BAYAN VERSION 0.0.1)
+    project (Bayan VERSION 0.0.1)
 endif()
 
 configure_file(version.h.in version.h)
@@ -11,10 +11,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Boost 1.77.0 COMPONENTS
+find_package(Boost 1.71.0 COMPONENTS
                         filesystem
                         program_options
-                        iostreams
                         regex
               REQUIRED )
               
@@ -95,7 +94,6 @@ target_include_directories(bayan
 )
 target_link_libraries(bayan Boost::filesystem
                             Boost::program_options
-                            Boost::iostreams
                             Boost::regex)
 # target_link_libraries(g_test_matrix
 #    gtest gtest_main
