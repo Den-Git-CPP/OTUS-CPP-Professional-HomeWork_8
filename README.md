@@ -23,3 +23,15 @@
 -D [ --depth ]          Depth to scan  
 -S [ --min_file_size ]  Minimum file size  
 -H [ --hash ]           Hash algo crc32/md5/sha1  
+
+Пример:  
+Команда для демонстрации опций:  
+./bayan -h  
+Команда для поиска файлов:  
+./bayan -I ..\test\test_catalog  
+./bayan -I ..\test -D 3  
+./bayan -I ..\test -D 3 -H md5  
+./bayan -I ..\test -D 3 --file_masks ".*.lib"  
+./bayan -I ..\test -D 3 -H md5 --file_masks ".*.txt"  
+
+ 📚 [**Документация к ДЗ**](https://den-git-cpp.github.io/OTUS-CPP-Professional-HomeWork_8/)
